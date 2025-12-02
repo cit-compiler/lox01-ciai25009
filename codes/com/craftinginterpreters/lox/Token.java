@@ -1,8 +1,5 @@
 package codes.com.craftinginterpreters.lox;
 
-public class Token {
-    package codes.com.craftinginterpreters.lox;
-
 class Token {
   final TokenType type;
   final String lexeme;
@@ -19,5 +16,4 @@ class Token {
   public String toString() {
     return type + " " + lexeme + " " + literal;
   }
-}
 }

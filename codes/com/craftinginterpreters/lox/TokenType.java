@@ -1,8 +1,5 @@
 package codes.com.craftinginterpreters.lox;
 
-public enum TokenType {
-    package codes.com.craftinginterpreters.lox;
-
 enum TokenType {
   // Single-character tokens.
   LEFT_PAREN, RIGHT_PAREN, LEFT_BRACE, RIGHT_BRACE,
@@ -22,6 +19,4 @@ enum TokenType {
   PRINT, RETURN, SUPER, THIS, TRUE, VAR, WHILE,
 
   EOF
-}
-
 }
